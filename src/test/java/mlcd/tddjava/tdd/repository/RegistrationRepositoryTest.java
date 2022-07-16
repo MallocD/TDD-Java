@@ -24,7 +24,7 @@ public class RegistrationRepositoryTest {
     @Autowired
     RegistrationRepository repository;
 
-    // Anotação para criar classe de teste
+    //Anotação para criar classe de teste
     @Test
     //Boas práticas para informar a quem for dar manutenção do código o que é feito no teste
     @DisplayName("Should return true when exists an registration already created.")
