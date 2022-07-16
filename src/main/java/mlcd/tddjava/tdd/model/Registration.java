@@ -21,7 +21,13 @@ public class Registration {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(name = "person_name")
+    private String name;
+
     @Column(name="data_of_registration")
+    private String dateOfRegistration;
+
+    @Column
     private String registration;
 
     @OneToMany(mappedBy = "registration")
